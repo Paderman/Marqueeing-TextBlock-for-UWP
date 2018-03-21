@@ -1,44 +1,49 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<Package xmlns="http://schemas.microsoft.com/appx/2010/manifest" xmlns:m2="http://schemas.microsoft.com/appx/2013/manifest" xmlns:m3="http://schemas.microsoft.com/appx/2014/manifest" xmlns:mp="http://schemas.microsoft.com/appx/2014/phone/manifest">
+<?xml version="1.0" encoding="utf-8"?>
 
-  <Identity Name="151fa78f-80dd-4f3a-bfcf-043e4ea5b60f"
-            Publisher="CN=Admin"
-            Version="1.0.0.0" />
+<Package
+  xmlns="http://schemas.microsoft.com/appx/manifest/foundation/windows10"
+  xmlns:mp="http://schemas.microsoft.com/appx/2014/phone/manifest"
+  xmlns:uap="http://schemas.microsoft.com/appx/manifest/uap/windows10"
+  IgnorableNamespaces="uap mp">
 
-  <mp:PhoneIdentity PhoneProductId="151fa78f-80dd-4f3a-bfcf-043e4ea5b60f" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
+  <Identity
+    Name="714425d8-00eb-4209-9512-471a4b4727bb"
+    Publisher="CN=user"
+    Version="1.0.0.0" />
+
+  <mp:PhoneIdentity PhoneProductId="714425d8-00eb-4209-9512-471a4b4727bb" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
 
   <Properties>
     <DisplayName>MarqueeingTextBlock</DisplayName>
-    <PublisherDisplayName>Admin</PublisherDisplayName>
+    <PublisherDisplayName>user</PublisherDisplayName>
     <Logo>Assets\StoreLogo.png</Logo>
   </Properties>
 
-  <Prerequisites>
-    <OSMinVersion>6.3.1</OSMinVersion>
-    <OSMaxVersionTested>6.3.1</OSMaxVersionTested>
-  </Prerequisites>
-  
+  <Dependencies>
+    <TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.0.0" MaxVersionTested="10.0.0.0" />
+  </Dependencies>
+
   <Resources>
     <Resource Language="x-generate"/>
   </Resources>
 
   <Applications>
     <Application Id="App"
-        Executable="$targetnametoken$.exe"
-        EntryPoint="MarqueeingTextBlock.App">
-        <m3:VisualElements
-            DisplayName="MarqueeingTextBlock"
-            Square150x150Logo="Assets\Logo.png"
-            Square44x44Logo="Assets\SmallLogo.png"
-            Description="MarqueeingTextBlock"
-            ForegroundText="light"
-            BackgroundColor="transparent">
-            <m3:DefaultTile Wide310x150Logo="Assets\WideLogo.png" Square71x71Logo="Assets\Square71x71Logo.png"/>
-            <m3:SplashScreen Image="Assets\SplashScreen.png"/>
-        </m3:VisualElements>
+      Executable="$targetnametoken$.exe"
+      EntryPoint="MarqueeingTextBlock.App">
+      <uap:VisualElements
+        DisplayName="MarqueeingTextBlock"
+        Square150x150Logo="Assets\Square150x150Logo.png"
+        Square44x44Logo="Assets\Square44x44Logo.png"
+        Description="MarqueeingTextBlock"
+        BackgroundColor="transparent">
+        <uap:DefaultTile Wide310x150Logo="Assets\Wide310x150Logo.png"/>
+        <uap:SplashScreen Image="Assets\SplashScreen.png" />
+      </uap:VisualElements>
     </Application>
   </Applications>
+
   <Capabilities>
-    <Capability Name="internetClientServer" />
+    <Capability Name="internetClient" />
   </Capabilities>
 </Package>
