@@ -5,6 +5,8 @@ Lauftext-Effekt in TextBlock anlegen
 
 Windows App/Phone, ....
 
+Download: https://github.com/Paderman/MarqueeingTextBlock/archive/master.zip
+
 Original: https://github.com/janaks09/MarqueeingTextBlock
 
 Project files was re-created with current Visual Studio 2017.
