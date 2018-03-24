@@ -10,4 +10,4 @@
 <h2>Download</h2>
 <p><a href="https://github.com/Paderman/MarqueeingTextBlock/archive/master.zip"><strong>Project file / Projektdatei</strong></a> (for/für VS 2017)</p>
 <h2>Original source / Original-Quelle</h2>
-<p><a href="https://github.com/janaks09/MarqueeingTextBlock">janaks09/MarqueeingTextBlock</a> (for/für VS 2015)</p>
+<p><a href="https://github.com/janaks09/MarqueeingTextBlock">janaks09/MarqueeingTextBlock</a> (for/für VS 2015 (C# only))</p>
