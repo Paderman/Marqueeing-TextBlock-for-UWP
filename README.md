@@ -9,4 +9,3 @@ Windows App/Phone, ....
 
 Project files was re-created with current Visual Studio 2017.<br>Projekt-Dateien wurden mit aktuellem Visual Studio 2017 neu erstellt.
 
-<video autoplay><source src="Demonstration.mp4" type="video/mp4"><source src="Demonstration.ogg" type="video/ogg">Your browser does not support the video tag or a other problem is occured.</video> 
