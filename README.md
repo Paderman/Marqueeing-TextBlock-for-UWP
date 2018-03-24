@@ -1,4 +1,4 @@
-# MarqueeingTextBlock
+# MarqueeingTextBlock - Project File (Projektdatei)
 <p>Putting Marquee effect in TextBlock<br>Lauftext-Effekt in TextBlock anlegen<br>Windows App/Phone, ....</p>
 <img src="Demonstration.gif" alt="Demonstration of MarqueeingTextBlock" />
 (Note: Demonstration is a little bit lagging, original not)<br><br>
